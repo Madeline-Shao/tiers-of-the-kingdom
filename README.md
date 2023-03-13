@@ -1,2 +1,4 @@
-# tiers-of-the-kingdom
-SQL database tier list maker with a command line app
+# Tiers of the Kingdom
+By Madeline Shao
+
+Tiers of the Kingdom is a tier list maker that uses an SQL database and a command line app.
