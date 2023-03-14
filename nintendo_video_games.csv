@@ -1,0 +1,431 @@
+Id,Game,Developer,Publisher,Release date,Sales,Platform
+NULL,Super Mario World ,Nintendo EAD,Nintendo,1990-11-21,20610000,Nintendo Entertainment System (NES)
+NULL,Super Mario All-Stars ,Nintendo EAD,Nintendo,1993-07-14,10550000,Nintendo Entertainment System (NES)
+NULL,Donkey Kong Country ,Rare,Nintendo,1994-11-21,9300000,Nintendo Entertainment System (NES)
+NULL,Super Mario Kart ,Nintendo EAD,Nintendo,1992-08-27,8760000,Nintendo Entertainment System (NES)
+NULL,Street Fighter II: The World Warrior ,Capcom,Capcom,1992-06-10,6300000,Nintendo Entertainment System (NES)
+NULL,Donkey Kong Country 2: Diddy's Kong Quest,Rare,Nintendo,1995-11-20,5150000,Nintendo Entertainment System (NES)
+NULL,The Legend of Zelda: A Link to the Past ,Nintendo EAD,Nintendo,1991-11-21,4610000,Nintendo Entertainment System (NES)
+NULL,Super Mario World 2: Yoshi's Island ,Nintendo EAD,Nintendo,1995-08-05,4120000,Nintendo Entertainment System (NES)
+NULL,Street Fighter II: Hyper Fighting,Capcom,Capcom,1993-07-11,4100000,Nintendo Entertainment System (NES)
+NULL,Star Fox ,Nintendo EAD and Argonaut Software,Nintendo,1993-02-21,4000000,Nintendo Entertainment System (NES)
+NULL,Donkey Kong Country 3: Dixie Kong's Double Trouble!,Rare,Nintendo,1996-11-22,3510000,Nintendo Entertainment System (NES)
+NULL,Final Fantasy VI,Square,Square,1994-04-02,3420000,Nintendo Entertainment System (NES)
+NULL,Killer Instinct ,Rare,Nintendo,1995-08-30,3200000,Nintendo Entertainment System (NES)
+NULL,Dragon Quest VI,Heartbeat,Enix,1995-12-09,3200000,Nintendo Entertainment System (NES)
+NULL,F-Zero ,Nintendo EAD,Nintendo,1990-11-21,2850000,Nintendo Entertainment System (NES)
+NULL,Dragon Quest V,Chunsoft,Enix,1992-09-27,2800000,Nintendo Entertainment System (NES)
+NULL,Final Fantasy V,Square,Square,1992-12-06,2450000,Nintendo Entertainment System (NES)
+NULL,Mario Paint ,Nintendo R&D1,Nintendo,1992-07-14,2310000,Nintendo Entertainment System (NES)
+NULL,Super Mario RPG,Square,Nintendo,1996-03-09,2140000,Nintendo Entertainment System (NES)
+NULL,Chrono Trigger,Square,Square,1995-03-11,2030000,Nintendo Entertainment System (NES)
+NULL,Pilotwings,Nintendo EAD,Nintendo,1990-12-21,2000000,Nintendo Entertainment System (NES)
+NULL,Super Street Fighter II,Capcom,Capcom,1994-06-25,2000000,Nintendo Entertainment System (NES)
+NULL,SimCity,Nintendo EAD,Nintendo,1991-04-26,1980000,Nintendo Entertainment System (NES)
+NULL,Secret of Mana,Square,Square,1993-08-06,1830000,Nintendo Entertainment System (NES)
+NULL,Final Fantasy IV,Square,Square,1991-07-19,1800000,Nintendo Entertainment System (NES)
+NULL,Disney's Aladdin,Capcom,Capcom,1993-11-26,1750000,Nintendo Entertainment System (NES)
+NULL,Super Puyo Puyo,Compile,Banpresto,1993-12-10,1700000,Nintendo Entertainment System (NES)
+NULL,Super Scope 6,Nintendo R&D1,Nintendo,1992-02-01,1650000,Nintendo Entertainment System (NES)
+NULL,Mortal Kombat II,Sculptured Software,Acclaim Entertainment,1994-09-09,1510000,Nintendo Entertainment System (NES)
+NULL,Romancing SaGa 2,Square,Square,1993-12-10,1490000,Nintendo Entertainment System (NES)
+NULL,Final Fight,Capcom,Capcom,1990-12-21,1480000,Nintendo Entertainment System (NES)
+NULL,Dragon Ball Z: Super Butōden,Tose,Bandai,1993-03-20,1450000,Nintendo Entertainment System (NES)
+NULL,Kirby Super Star ,HAL Laboratory,Nintendo,1996-03-21,1440000,Nintendo Entertainment System (NES)
+NULL,Super Metroid,Nintendo R&D1 and Intelligent Systems,Nintendo,1994-03-19,1420000,Nintendo Entertainment System (NES)
+NULL,Dragon Quest III,Heartbeat,Enix,1996-12-06,1400000,Nintendo Entertainment System (NES)
+NULL,Romancing SaGa,Square,Square,1992-01-28,1320000,Nintendo Entertainment System (NES)
+NULL,Wonder Project J,Almanic Corporation,Enix,1994-12-09,1300000,Nintendo Entertainment System (NES)
+NULL,Romancing SaGa 3,Square,Square,1995-11-11,1300000,Nintendo Entertainment System (NES)
+NULL,The Lion King,Westwood Studios,Virgin Interactive,1994-12-08,1270000,Nintendo Entertainment System (NES)
+NULL,NBA Jam,Iguana Entertainment,Acclaim Entertainment,1994-03-04,1220000,Nintendo Entertainment System (NES)
+NULL,Mortal Kombat 3,Sculptured Software,Acclaim Entertainment,1995-10-13,1220000,Nintendo Entertainment System (NES)
+NULL,The Magical Quest Starring Mickey Mouse,Capcom,Capcom,1992-11-20,1210000,Nintendo Entertainment System (NES)
+NULL,Dragon Quest I & II,Chunsoft,Enix,1993-12-18,1200000,Nintendo Entertainment System (NES)
+NULL,Derby Stallion III,ASCII Entertainment,Nintendo,1995-01-20,1200000,Nintendo Entertainment System (NES)
+NULL,Mega Man X,Capcom,Capcom,1993-12-17,1160000,Nintendo Entertainment System (NES)
+NULL,Dragon Ball Z: Super Butōden 2,Tose,Bandai,1993-12-17,1150000,Nintendo Entertainment System (NES)
+NULL,Derby Stallion '96,ASCII Entertainment,Nintendo,1996-03-15,1100000,Nintendo Entertainment System (NES)
+NULL,Super Ghouls 'n Ghosts,Capcom,Capcom,1991-10-04,1090000,Nintendo Entertainment System (NES)
+NULL,Final Fight 2,Capcom,Capcom,1993-05-22,1030000,Nintendo Entertainment System (NES)
+NULL,Super Mario 64 ,Nintendo EAD,Nintendo,1996-06-23,11910000,Nintendo 64
+NULL,Mario Kart 64,Nintendo EAD,Nintendo,1996-12-14,9870000,Nintendo 64
+NULL,GoldenEye 007 ,Rare,Nintendo,1997-08-25,8090000,Nintendo 64
+NULL,The Legend of Zelda: Ocarina of Time,Nintendo EAD,Nintendo,1998-11-21,7600000,Nintendo 64
+NULL,Super Smash Bros.,HAL Laboratory,Nintendo,1999-01-21,5550000,Nintendo 64
+NULL,Pokémon Stadium ,Nintendo EAD,Nintendo,1999-04-30,5460000,Nintendo 64
+NULL,Donkey Kong 64 ,Rare,Nintendo,1999-11-22,5270000,Nintendo 64
+NULL,Diddy Kong Racing,Rare,Rare,1997-11-14,4880000,Nintendo 64
+NULL,Star Fox 64,Nintendo EAD,Nintendo,1997-04-27,4000000,Nintendo 64
+NULL,Banjo-Kazooie,Rare,Nintendo,1998-06-29,3650000,Nintendo 64
+NULL,Pokémon Snap,HAL Laboratory and Pax Softonica,Nintendo,1999-03-21,3630000,Nintendo 64
+NULL,The Legend of Zelda: Majora's Mask,Nintendo EAD,Nintendo,2000-04-27,3360000,Nintendo 64
+NULL,Star Wars Episode I: Racer ,LucasArts,LucasArts,1999-04-30,3100000,Nintendo 64
+NULL,Banjo-Tooie,Rare,Nintendo,2000-11-20,3000000,Nintendo 64
+NULL,Wave Race 64,Nintendo EAD,Nintendo,1996-09-27,2940000,Nintendo 64
+NULL,Yoshi's Story,Nintendo EAD,Nintendo,1997-12-21,2850000,Nintendo 64
+NULL,Mario Party,Hudson Soft,Nintendo,1998-12-18,2700000,Nintendo 64
+NULL,Star Wars: Shadows of the Empire,LucasArts,Nintendo,1996-12-03,2600000,Nintendo 64
+NULL,Pokémon Stadium 2,Nintendo EAD,Nintendo,2000-12-14,2540000,Nintendo 64
+NULL,Perfect Dark,Rare,Rare,2000-05-22,2520000,Nintendo 64
+NULL,Mario Party 2,Hudson Soft,Nintendo,1999-12-17,2480000,Nintendo 64
+NULL,Mario Tennis,Camelot Software Planning,Nintendo,2000-07-21,2320000,Nintendo 64
+NULL,Star Wars: Rogue Squadron,Factor 5 and LucasArts,Nintendo,1998-12-07,2170000,Nintendo 64
+NULL,1080° Snowboarding,Nintendo EAD,Nintendo,1998-02-28,2030000,Nintendo 64
+NULL,Excitebike 64,Left Field Productions,Nintendo,2000-04-30,2000000,Nintendo 64
+NULL,Mario Party 3,Hudson Soft,Nintendo,2000-12-07,1910000,Nintendo 64
+NULL,WCW/nWo Revenge,AKI Corporation and Asmik Ace Entertainment,THQ,1998-10-26,1880000,Nintendo 64
+NULL,Hey You Pikachu!,Ambrella,Nintendo,1998-12-12,1830000,Nintendo 64
+NULL,Kirby 64: The Crystal Shards,HAL Laboratory,Nintendo,2000-03-24,1770000,Nintendo 64
+NULL,Cruis'n USA,Williams,Nintendo,1996-12-03,1720000,Nintendo 64
+NULL,Tony Hawk's Pro Skater,Edge of Reality,Activision,2000-02-29,1610000,Nintendo 64
+NULL,F-1 World Grand Prix,Paradigm Entertainment,Nintendo,1998-07-31,1600000,Nintendo 64
+NULL,Turok: Dinosaur Hunter,Iguana Entertainment,Acclaim Entertainment,1997-03-04,1500000,Nintendo 64
+NULL,Mario Golf,Camelot Software Planning,Nintendo,1999-06-11,1470000,Nintendo 64
+NULL,Turok 2: Seeds of Evil,Iguana Entertainment,Acclaim Entertainment,1998-10-21,1400000,Nintendo 64
+NULL,Paper Mario,Intelligent Systems,Nintendo,2000-08-11,1370000,Nintendo 64
+NULL,WCW vs. nWo: World Tour,AKI Corporation and Asmik Ace Entertainment,THQ,1997-11-30,1300000,Nintendo 64
+NULL,Kobe Bryant in NBA Courtside,Left Field Productions,Nintendo,1998-04-27,1190000,Nintendo 64
+NULL,WWF No Mercy,AKI Corporation and Asmik Ace Entertainment,THQ,2000-11-17,1190000,Nintendo 64
+NULL,Jet Force Gemini,Rare,Rare,1999-10-11,1160000,Nintendo 64
+NULL,WWF WrestleMania 2000,AKI Corporation and Asmik Ace Entertainment,THQ,1999-10-12,1140000,Nintendo 64
+NULL,Pilotwings 64,Nintendo EAD and Nintendo R&D3 and Paradigm Entertainment,Nintendo,1996-06-23,1120000,Nintendo 64
+NULL,F-Zero X,Nintendo EAD,Nintendo,1998-07-14,1100000,Nintendo 64
+NULL,Pocket Monsters' Stadium,Nintendo EAD and HAL Laboratory,Nintendo,1998-08-01,1094765,Nintendo 64
+NULL,007: The World Is Not Enough,Eurocom,Electronic Arts,2000-10-17,1080000,Nintendo 64
+NULL,Namco Museum 64,Mass Media Games,Namco,1999-10-31,1040000,Nintendo 64
+NULL,Pokémon Ruby and Sapphire,Game Freak,The Pokémon Company and Nintendo,2002-11-21,16220000,Game Boy Advanced
+NULL,Pokémon FireRed and LeafGreen,Game Freak,The Pokémon Company and Nintendo,2004-01-24,12000000,Game Boy Advanced
+NULL,Pokémon Emerald,Game Freak,The Pokémon Company and Nintendo,2004-09-16,7060000,Game Boy Advanced
+NULL,Mario Kart: Super Circuit,Intelligent Systems,Nintendo,2001-07-21,5910000,Game Boy Advanced
+NULL,Super Mario World: Super Mario Advance 2,Nintendo R&D2,Nintendo,2001-12-14,5690000,Game Boy Advanced
+NULL,Super Mario Advance,Nintendo R&D2,Nintendo,2001-03-21,5570000,Game Boy Advanced
+NULL,Super Mario Advance 4: Super Mario Bros. 3 ,Nintendo R&D2,Nintendo,2003-07-11,5430000,Game Boy Advanced
+NULL,Namco Museum,Mass Media Games,Namco,2001-06-11,2960000,Game Boy Advanced
+NULL,Pac-Man Collection,Mass Media Games,Namco,2001-07-12,2940000,Game Boy Advanced
+NULL,Yoshi's Island: Super Mario Advance 3,Nintendo R&D2,Nintendo,2002-09-23,2830000,Game Boy Advanced
+NULL,The Legend of Zelda: A Link to the Past,Nintendo EAD and Flagship,Nintendo,2002-12-02,2820000,Game Boy Advanced
+NULL,Pokémon Mystery Dungeon: Red Rescue Team,Chunsoft,The Pokémon Company and Nintendo,2005-11-17,2360000,Game Boy Advanced
+NULL,NES Classics Series: Super Mario Bros.,Nintendo EAD,Nintendo,2004-02-14,2270000,Game Boy Advanced
+NULL,Wario Land 4,Nintendo R&D1,Nintendo,2001-08-21,2200000,Game Boy Advanced
+NULL,Mario & Luigi: Superstar Saga,AlphaDream,Nintendo,2003-11-17,2150000,Game Boy Advanced
+NULL,Kirby: Nightmare in Dream Land,HAL Laboratory,Nintendo,2002-10-25,2100000,Game Boy Advanced
+NULL,Finding Nemo,Vicarious Visions,THQ,2003-05-10,1840000,Game Boy Advanced
+NULL,Donkey Kong Country,Rare,Nintendo,2003-06-06,1820000,Game Boy Advanced
+NULL,The Legend of Zelda: The Minish Cap,Flagship,Nintendo,2004-11-04,1760000,Game Boy Advanced
+NULL,Yu-Gi-Oh! The Eternal Duelist Soul,Konami,Konami,2001-07-05,1710534,Game Boy Advanced
+NULL,Golden Sun,Camelot Software Planning,Nintendo,2001-08-01,1650000,Game Boy Advanced
+NULL,Final Fantasy Tactics Advance,Square,JP: Square and WW: Nintendo,2003-02-14,1621000,Game Boy Advanced
+NULL,Metroid Fusion,Nintendo R&D1,Nintendo,2002-11-17,1600000,Game Boy Advanced
+NULL,Kingdom Hearts: Chain of Memories,Square Enix and Jupiter,Square Enix,2004-11-11,1542000,Game Boy Advanced
+NULL,Sonic Advance,Dimps and Sonic Team,JP: Sega,2001-12-20,1515000,Game Boy Advanced
+NULL,Kirby & the Amazing Mirror,HAL Laboratory and Flagship,Nintendo,2004-04-15,1470000,Game Boy Advanced
+NULL,Yu-Gi-Oh! Worldwide Edition: Stairway to the Destined Duel,Konami,Konami,2003-04-15,1460000,Game Boy Advanced
+NULL,Dragon Ball Z: The Legacy of Goku,Webfoot Technologies,Infogrames,2002-05-14,1400000,Game Boy Advanced
+NULL,Mario vs. Donkey Kong,Nintendo Software Technology,Nintendo,2004-05-24,1370000,Game Boy Advanced
+NULL,Pokémon Pinball: Ruby & Sapphire,Jupiter,The Pokémon Company and Nintendo,2003-08-01,1370000,Game Boy Advanced
+NULL,The Incredibles,Helixe,THQ,2004-11-01,1366000,Game Boy Advanced
+NULL,Mega Man Battle Network 4: Red Sun and Blue Moon,Capcom Production Studio 2,Capcom,2003-12-14,1350000,Game Boy Advanced
+NULL,Frogger's Adventures: Temple of the Frog,Konami Software Shanghai,Konami,2001-11-23,1310000,Game Boy Advanced
+NULL,Harry Potter and the Chamber of Secrets,Eurocom,Electronic Arts,2002-11-05,1200000,Game Boy Advanced
+NULL,Disney Princess,Vicarious Visions,THQ,2003-04-02,1170000,Game Boy Advanced
+NULL,Golden Sun: The Lost Age,Camelot Software Planning,Nintendo,2002-06-28,1120000,Game Boy Advanced
+NULL,WarioWare Inc.: Mega Microgames!,Nintendo R&D1,Nintendo,2003-03-21,1100000,Game Boy Advanced
+NULL,F-Zero: Maximum Velocity,NDcube,Nintendo,2001-03-21,1050000,Game Boy Advanced
+NULL,Donkey Kong Country 2,Rare,Nintendo,2004-06-25,1020000,Game Boy Advanced
+NULL,Sonic Advance 2,Dimps and Sonic Team,JP: Sega,2002-12-19,1016541,Game Boy Advanced
+NULL,Spyro: Season of Ice,Digital Eclipse,Universal Interactive Studios,2001-10-29,1000000,Game Boy Advanced
+NULL,WarioWare: Twisted!,Nintendo SPD and Intelligent Systems,Nintendo,2004-10-14,1000000,Game Boy Advanced
+NULL,Super Smash Bros. Melee,HAL Laboratory,Nintendo,2001-11-21,7410000,GameCube
+NULL,Mario Kart: Double Dash,Nintendo EAD,Nintendo,2003-11-07,6960000,GameCube
+NULL,Super Mario Sunshine,Nintendo EAD,Nintendo,2002-07-19,6280000,GameCube
+NULL,The Legend of Zelda: The Wind Waker,Nintendo EAD,Nintendo,2002-12-13,4430000,GameCube
+NULL,Luigi's Mansion,Nintendo EAD,Nintendo,2001-09-14,3330000,GameCube
+NULL,Metroid Prime,Retro Studios,Nintendo,2002-11-17,2840000,GameCube
+NULL,Animal Crossing,Nintendo EAD,Nintendo,2001-12-14,2710000,GameCube
+NULL,Mario Party 4,Hudson Soft,Nintendo,2002-10-21,2460000,GameCube
+NULL,Pokémon Colosseum,Genius Sonority,Nintendo and The Pokémon Company,2003-11-21,2410000,GameCube
+NULL,Mario Party 5,Hudson Soft,Nintendo,2003-11-10,2170000,GameCube
+NULL,Mario Party 7,Hudson Soft,Nintendo,2005-11-07,2080000,GameCube
+NULL,Paper Mario: The Thousand-Year Door,Intelligent Systems,Nintendo,2004-07-22,1910000,GameCube
+NULL,Star Fox Adventures,Rare,Nintendo,2002-09-23,1820000,GameCube
+NULL,Sonic Adventure 2: Battle,Sonic Team USA,Sega,2001-12-20,1730000,GameCube
+NULL,Mario Party 6,Hudson Soft,Nintendo,2004-11-18,1630000,GameCube
+NULL,Pikmin,Nintendo EAD,Nintendo,2001-10-26,1600000,GameCube
+NULL,Resident Evil 4,Capcom Production Studio 4,Capcom,2005-01-11,1600000,GameCube
+NULL,Super Mario Strikers,Next Level Games,Nintendo,2005-11-18,1600000,GameCube
+NULL,F-Zero GX,Amusement Vision,Nintendo,2003-07-25,1500000,GameCube
+NULL,The Legend of Zelda: Twilight Princess,Nintendo EAD,Nintendo,2006-12-02,1430000,GameCube
+NULL,Pokémon XD: Gale of Darkness,Genius Sonority,Nintendo and The Pokémon Company,2005-08-04,1420000,GameCube
+NULL,Sonic Mega Collection,Sonic Team,Sega,2002-11-10,1370000,GameCube
+NULL,Resident Evil,Capcom Production Studio 4,Capcom,2002-03-22,1350000,GameCube
+NULL,Kirby Air Ride,HAL Laboratory,Nintendo,2003-07-11,1350000,GameCube
+NULL,Final Fantasy Crystal Chronicles,The Game Designers Studio,Nintendo,2003-08-08,1300000,GameCube
+NULL,Mario Golf: Toadstool Tour,Camelot Software Planning,Nintendo,2003-07-28,1270000,GameCube
+NULL,Resident Evil Zero,Capcom,Capcom,2002-11-12,1250000,GameCube
+NULL,Donkey Konga,Namco,Nintendo,2003-12-12,1180000,GameCube
+NULL,Mario Power Tennis,Camelot Software Planning,Nintendo,2004-10-28,1160000,GameCube
+NULL,Star Wars Rogue Squadron II: Rogue Leader,Factor 5,LucasArts,2001-11-18,1130000,GameCube
+NULL,Pikmin 2,Nintendo EAD,Nintendo,2004-04-29,1120000,GameCube
+NULL,Metroid Prime 2: Echoes,Retro Studios,Nintendo,2004-11-15,1100000,GameCube
+NULL,Soulcalibur II,Namco,Namco,2003-03-27,1090000,GameCube
+NULL,Star Fox: Assault,Namco,Nintendo,2005-02-14,1060000,GameCube
+NULL,Mario Superstar Baseball,Namco,Nintendo,2005-07-21,1050000,GameCube
+NULL,New Super Mario Bros.,Nintendo EAD (Group 4),Nintendo,2006-05-15,30800000,Nintendo DS
+NULL,Nintendogs (all versions),Nintendo EAD (Group 1),Nintendo,2005-04-21,23960000,Nintendo DS
+NULL,Mario Kart DS,Nintendo EAD (Group 1),Nintendo,2005-11-14,23600000,Nintendo DS
+NULL,Brain Age: Train Your Brain in Minutes a Day!,Nintendo SPD,Nintendo,2005-05-19,19010000,Nintendo DS
+NULL,Pokémon Diamond and Pearl,Game Freak,The Pokémon Company,2006-09-28,17670000,Nintendo DS
+NULL,Pokémon Black and White,Game Freak,The Pokémon Company,2010-09-18,15640000,Nintendo DS
+NULL,Brain Age 2: More Training in Minutes a Day!,Nintendo SPD,Nintendo,2005-12-29,14880000,Nintendo DS
+NULL,Pokémon HeartGold and SoulSilver,Game Freak,The Pokémon Company,2009-09-12,12720000,Nintendo DS
+NULL,Animal Crossing: Wild World,Nintendo EAD (Group 2),Nintendo,2005-11-23,11750000,Nintendo DS
+NULL,Super Mario 64 DS,Nintendo EAD,Nintendo,2004-11-21,11060000,Nintendo DS
+NULL,Mario Party DS,Hudson Soft,Nintendo,2007-11-08,9310000,Nintendo DS
+NULL,Pokémon Black 2 and White 2,Game Freak,The Pokémon Company,2012-06-23,8520000,Nintendo DS
+NULL,Pokémon Platinum,Game Freak,The Pokémon Company,2008-09-13,7600000,Nintendo DS
+NULL,Big Brain Academy,Nintendo EAD (Group 4),Nintendo,2005-06-30,6150000,Nintendo DS
+NULL,Dragon Quest IX: Sentinels of the Starry Skies,Level-5,JP: Square Enix,2009-07-11,5310000,Nintendo DS
+NULL,Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness,Chunsoft,The Pokémon Company and Nintendo,2007-09-13,4880000,Nintendo DS
+NULL,The Legend of Zelda: Phantom Hourglass,Nintendo EAD (Group 3),Nintendo,2007-06-23,4760000,Nintendo DS
+NULL,Lego Star Wars: The Complete Saga,Traveller's Tales,LucasArts,2007-11-06,4700000,Nintendo DS
+NULL,Mario & Luigi: Bowser's Inside Story,AlphaDream,Nintendo,2009-02-11,4560000,Nintendo DS
+NULL,Mario & Sonic at the Olympic Games,Sega Sports R&D,JP: Nintendo,2008-01-17,4220000,Nintendo DS
+NULL,Professor Layton and the Diabolical Box,Level-5,JP: Level-5,2007-11-29,3940000,Nintendo DS
+NULL,English Training: Have Fun Improving Your Skills!,Nintendo SPD,Nintendo,2006-01-26,3910000,Nintendo DS
+NULL,Tomodachi Collection,Nintendo SPD (Group 1),Nintendo,2009-06-18,3760000,Nintendo DS
+NULL,Pokémon Mystery Dungeon: Blue Rescue Team,Chunsoft,The Pokémon Company and Nintendo,2005-11-17,3490000,Nintendo DS
+NULL,Professor Layton and the Curious Village,Level-5,JP: Level-5,2007-02-15,3460000,Nintendo DS
+NULL,Yoshi's Island DS,Artoon,Nintendo,2006-11-13,3360000,Nintendo DS
+NULL,Flash Focus: Vision Training in Minutes a Day,Nintendo SPD and Namco Bandai,Nintendo,2007-05-31,3230000,Nintendo DS
+NULL,Rhythm Heaven,Nintendo SPD and TNX Music Recordings,Nintendo,2008-07-31,3040000,Nintendo DS
+NULL,Professor Kageyama's Maths Training: The Hundred Cell Calculation Method,Jupiter,JP: Shogakukan,2006-12-07,3000000,Nintendo DS
+NULL,Kirby Super Star Ultra,HAL Laboratory,Nintendo,2008-09-29,2990000,Nintendo DS
+NULL,Mario vs. Donkey Kong: Mini-Land Mayhem!,Nintendo Software Technology,Nintendo,2010-11-14,2980000,Nintendo DS
+NULL,Style Savvy,Syn Sophia,Nintendo,2008-10-23,2980000,Nintendo DS
+NULL,The Legend of Zelda: Spirit Tracks,Nintendo EAD (Group 3),Nintendo,2009-12-07,2960000,Nintendo DS
+NULL,Pokémon Ranger,HAL Laboratory,The Pokémon Company and Nintendo,2006-03-23,2930000,Nintendo DS
+NULL,Professor Layton and the Unwound Future,Level-5,JP: Level-5,2008-11-27,2830000,Nintendo DS
+NULL,Cooking Mama,Office Create,JP: Taito,2006-03-23,2820000,Nintendo DS
+NULL,Tetris DS,Nintendo SPD (Group 2),Nintendo,2006-03-20,2740000,Nintendo DS
+NULL,Clubhouse Games,Agenda,Nintendo,2005-11-03,2570000,Nintendo DS
+NULL,WarioWare: Touched!,Nintendo SPD (Group 1) and Intelligent Systems,Nintendo,2004-12-02,2470000,Nintendo DS
+NULL,Pokémon Ranger: Shadows of Almia,Creatures Inc.,The Pokémon Company and Nintendo,2008-03-20,2350000,Nintendo DS
+NULL,Art Academy,Headstrong Games and Nintendo SPD (Group 3),Nintendo,2010-06-19,2330000,Nintendo DS
+NULL,Kirby: Squeak Squad,HAL Laboratory and Flagship,Nintendo,2006-11-02,2270000,Nintendo DS
+NULL,Personal Trainer: Cooking,indieszero and Nintendo NSD,Nintendo,2008-06-20,2170000,Nintendo DS
+NULL,Mario Hoops 3-on-3,Square Enix,Nintendo,2006-07-27,2030000,Nintendo DS
+NULL,Final Fantasy III,Matrix Software,Square Enix,2006-08-24,2000000,Nintendo DS
+NULL,Professor Layton and the Last Specter,Level-5,JP: Level-5,2009-11-26,1910000,Nintendo DS
+NULL,Mario & Luigi: Partners in Time,AlphaDream,Nintendo,2005-11-28,1730000,Nintendo DS
+NULL,Super Princess Peach,Tose,Nintendo,2005-10-20,1700000,Nintendo DS
+NULL,Common Sense Training,HAL Laboratory,Nintendo,2006-10-26,1680000,Nintendo DS
+NULL,Diddy Kong Racing DS,Rare,Nintendo,2007-02-05,1590000,Nintendo DS
+NULL,Mario vs. Donkey Kong 2: March of the Minis,Nintendo Software Technology,Nintendo,2006-09-25,1520000,Nintendo DS
+NULL,Dragon Quest V: Hand of the Heavenly Bride,ArtePiazza,Square Enix,2008-07-17,1490000,Nintendo DS
+NULL,Dragon Quest Monsters: Joker,Tose,Square Enix,2006-12-28,1490000,Nintendo DS
+NULL,Kingdom Hearts 358/2 Days,h.a.n.d.,Square Enix,2009-05-30,1490000,Nintendo DS
+NULL,Pokémon Mystery Dungeon: Explorers of Sky,ChunSoft,Nintendo,2007-09-13,1490000,Nintendo DS
+NULL,Dragon Quest IV: Chapters of the Chosen,ChunSoft,Enix,2007-11-22,1460000,Nintendo DS
+NULL,Guitar Hero: On Tour,Activision,Activision,2008-06-22,1400000,Nintendo DS
+NULL,Dragon Quest VI: Realms of Revelation,ArtePiazza,Nintendo,2010-01-28,1350000,Nintendo DS
+NULL,Hannah Montana,DC Studios,Buena Vista Games,2006-10-10,1300000,Nintendo DS
+NULL,MySims,Tose,Electronic Arts,2007-09-18,1300000,Nintendo DS
+NULL,Dragon Quest Monsters: Joker 2,Tose,Square Enix,2010-04-28,1250000,Nintendo DS
+NULL,Kirby Mass Attack,HAL Laboratory,Nintendo,2011-08-04,1220000,Nintendo DS
+NULL,High School Musical: Makin' the Cut!,A2M,Buena Vista Games,2007-08-14,1200000,Nintendo DS
+NULL,Inazuma Eleven: Firestorm and Blizzard,Level-5,Nintendo,2009-10-01,1180000,Nintendo DS
+NULL,Love and Berry DS Collection,Sega,Sega,2006-11-22,1120000,Nintendo DS
+NULL,Tamagotchi Connection: Corner Shop,NanaOn-Sha,Bandai,2005-09-15,1120000,Nintendo DS
+NULL,Chrono Trigger,Square Enix,Square Enix,2008-11-20,1100000,Nintendo DS
+NULL,Final Fantasy IV,Matrix Software,Square Enix,2007-12-20,1090000,Nintendo DS
+NULL,Metroid Prime Hunters,Nintendo Software Technology,Nintendo,2006-06-01,1080000,Nintendo DS
+NULL,Final Fantasy XII: Revenant Wings,Square Enix,Square Enix,2007-04-26,1040000,Nintendo DS
+NULL,Drawn to Life,5th Cell,THQ,2007-09-10,1000000,Nintendo DS
+NULL,Scribblenauts,5th Cell,Warner Bros. Interactive Entertainment,2009-09-15,1000000,Nintendo DS
+NULL,Spectrobes,Jupiter,Disney Interactive Studios,2007-03-06,1000000,Nintendo DS
+NULL,Wii Sports ,Nintendo EAD (Group 2),Nintendo,2006-11-19,82900000,Wii
+NULL,Mario Kart Wii ,Nintendo EAD (Group 1),Nintendo,2008-04-10,37380000,Wii
+NULL,Wii Sports Resort ,Nintendo EAD (Group 2),Nintendo,2009-06-25,33140000,Wii
+NULL,New Super Mario Bros. Wii ,Nintendo EAD (Group 4),Nintendo,2009-11-12,30320000,Wii
+NULL,Wii Play,Nintendo EAD (Group 2),Nintendo,2006-12-02,28020000,Wii
+NULL,Wii Fit,Nintendo EAD (Group 5),Nintendo,2007-12-01,22670000,Wii
+NULL,Wii Fit Plus,Nintendo EAD (Group 5),Nintendo,2009-10-01,21130000,Wii
+NULL,Super Smash Bros. Brawl,Sora Ltd and cad hoc development team,Nintendo,2008-01-31,13320000,Wii
+NULL,Super Mario Galaxy,Nintendo EAD (Group 1),Nintendo,2007-11-01,12800000,Wii
+NULL,Just Dance 3,Ubisoft Paris,Ubisoft,2011-10-07,9920000,Wii
+NULL,Wii Party,Nd Cube and Nintendo SPD (Group 4),Nintendo,2010-07-08,9350000,Wii
+NULL,Mario Party 8,Hudson Soft,Nintendo,2007-05-29,8850000,Wii
+NULL,The Legend of Zelda: Twilight Princess,Nintendo EAD (Group 3),Nintendo,2006-11-19,7420000,Wii
+NULL,Super Mario Galaxy 2,Nintendo EAD (Group 1),Nintendo,2010-05-23,7410000,Wii
+NULL,Mario & Sonic at the Olympic Games,Sega Sports R&D,JP: Nintendo and NA/PAL: Sega,2007-11-06,7090000,Wii
+NULL,Donkey Kong Country Returns,Retro Studios,Nintendo,2010-11-21,6530000,Wii
+NULL,Mario & Sonic at the Olympic Winter Games,Sega Sports R&D,JP: Nintendo and NA/PAL: Sega,2009-11-05,6530000,Wii
+NULL,Link's Crossbow Training,Nintendo EAD (Group 3),Nintendo,2007-11-19,5790000,Wii
+NULL,Lego Star Wars: The Complete Saga,Traveller's Tales,LucasArts,2007-11-06,5510000,Wii
+NULL,Just Dance 2,Ubisoft Paris,Ubisoft,2010-10-12,5000000,Wii
+NULL,Animal Crossing: City Folk,Nintendo EAD (Group 2),Nintendo,2008-11-16,4320000,Wii
+NULL,Just Dance,Ubisoft Paris,Ubisoft,2009-11-17,4300000,Wii
+NULL,Super Paper Mario,Intelligent Systems,Nintendo,2007-04-09,4320000,Wii
+NULL,The Legend of Zelda: Skyward Sword,Nintendo EAD (Group 3),Nintendo,2011-11-18,3670000,Wii
+NULL,Big Brain Academy: Wii Degree,Nintendo EAD (Group 4),Nintendo,2007-04-26,3340000,Wii
+NULL,Mario Party 9,Nd Cube,Nintendo,2012-03-02,3110000,Wii
+NULL,Wii Music,Nintendo EAD (Group 2),Nintendo,2008-10-16,2860000,Wii
+NULL,Mario Strikers Charged,Next Level Games,Nintendo,2007-05-25,2600000,Wii
+NULL,Mario & Sonic at the London 2012 Olympic Games,Sega Sports R&D,JP: Nintendo and NA/PAL: Sega,2011-11-13,2400000,Wii
+NULL,WarioWare: Smooth Moves,Nintendo SPD (Group 1) and Intelligent Systems,Nintendo,2006-12-02,2350000,Wii
+NULL,Mario Super Sluggers,Bandai Namco Games and Now Production,Nintendo,2008-06-19,2320000,Wii
+NULL,Super Mario All-Stars: 25th Anniversary Edition,Nintendo EAD,Nintendo,2010-10-21,2240000,Wii
+NULL,Guitar Hero III: Legends of Rock,Vicarious Visions,Activision,2007-10-28,2000000,Wii
+NULL,Michael Jackson: The Experience,Ubisoft Paris,Ubisoft,2010-11-06,2000000,Wii
+NULL,Resident Evil 4: Wii Edition,Capcom,JP/NA/EU: Capcom and AU: Nintendo Australia,2007-05-31,2000000,Wii
+NULL,Deca Sports,Hudson Soft,JP/NA: Hudson Soft and EU: Konami,2009-04-16,2000000,Wii
+NULL,Epic Mickey,Junction Point Studios,Disney Interactive Studios and Nintendo,2010-11-25,2000000,Wii
+NULL,Game Party,FarSight Studios,Midway Games,2007-11-27,2000000,Wii
+NULL,Mario Sports Mix,Square Enix and Nintendo SPD (Group 4),Nintendo,2010-11-25,1980000,Wii
+NULL,Pokémon Battle Revolution,Genius Sonority,Nintendo,2006-12-14,1950000,Wii
+NULL,Monster Hunter Tri,Capcom Production Studio 1,Capcom,2009-08-01,1900000,Wii
+NULL,Kirby's Epic Yarn,Good-Feel and HAL Laboratory,Nintendo,2010-10-14,1850000,Wii
+NULL,EA Sports Active,EA Canada,Electronic Arts,2009-05-19,1800000,Wii
+NULL,Kirby's Return to Dream Land,HAL Laboratory,Nintendo,2011-10-24,1790000,Wii
+NULL,New Play Control! Mario Power Tennis,Camelot Software Planning,Nintendo,2009-01-15,1790000,Wii
+NULL,Carnival Games,Cat Daddy Games,Global Star Software,2007-08-27,1500000,Wii
+NULL,Metroid Prime 3: Corruption,Retro Studios and Nintendo,Nintendo,2007-08-27,1410000,Wii
+NULL,Guitar Hero World Tour,Vicarious Visions,Activision,2008-10-26,1330000,Wii
+NULL,Resident Evil: The Umbrella Chronicles,Capcom and Cavia,JP/NA/EU: Capcom and  AU: Nintendo Australia,2007-11-13,1300000,Wii
+NULL,Wii Play: Motion,Variouse,Nintendo,2011-06-13,1260000,Wii
+NULL,PokéPark Wii: Pikachu's Adventure,Creatures Inc.,Nintendo and The Pokémon Company,2009-12-05,1250000,Wii
+NULL,Rayman Raving Rabbids,Ubisoft Montpellier,Ubisoft,2006-11-19,1200000,Wii
+NULL,We Ski,Bandai Namco Games,Bandai Namco Games,2008-01-31,1200000,Wii
+NULL,Big Beach Sports,HB Studios,THQ,2008-06-24,1200000,Wii
+NULL,Punch-Out!!,Next Level Games,Nintendo,2009-07-23,1140000,Wii
+NULL,Wario Land: Shake It!,Good-Feel,Nintendo,2008-07-24,1060000,Wii
+NULL,Active Life: Outdoor Challenge,h.a.n.d.,Bandai Namco Games,2008-05-29,1030000,Wii
+NULL,Call of Duty: World at War,Treyarch,Activision,2008-11-10,1000000,Wii
+NULL,Red Steel,Ubisoft Paris,Ubisoft,2006-11-19,1000000,Wii
+NULL,Rock Band,Pi Studios,MTV Games and Electronic Arts,2008-06-22,1000000,Wii
+NULL,Zumba Fitness,Pipeworks Software,Majesco Entertainment and 505 Games,2010-11-18,1000000,Wii
+NULL,Super Mario Bros. 3f,Nintendo EAD,Nintendo,2007-11-05,1000000,Wii
+NULL,Game Party 2,FarSight Studios,Midway Games,2008-10-06,1000000,Wii
+NULL,Mario Kart 7 ,Nintendo EAD and Retro Studios,Nintendo,2011-12-01,18970000,Nintendo 3DS
+NULL,Pokémon X and Y,Game Freak,The Pokémon Company and Nintendo,2013-10-12,16620000,Nintendo 3DS
+NULL,Pokémon Sun and Moon,Game Freak,The Pokémon Company and Nintendo,2016-11-18,16280000,Nintendo 3DS
+NULL,Pokémon Omega Ruby and Alpha Sapphire,Game Freak,The Pokémon Company and Nintendo,2014-11-21,14500000,Nintendo 3DS
+NULL,New Super Mario Bros. 2 ,Nintendo EAD,Nintendo,2012-07-28,13400000,Nintendo 3DS
+NULL,Animal Crossing: New Leaf ,Nintendo EAD,Nintendo,2012-11-08,13010000,Nintendo 3DS
+NULL,Super Mario 3D Land ,Nintendo EAD,Nintendo,2011-11-03,12850000,Nintendo 3DS
+NULL,Super Smash Bros. for Nintendo 3DS,Bandai Namco Studios and Sora Ltd.,Nintendo,2014-09-13,9630000,Nintendo 3DS
+NULL,Pokémon Ultra Sun and Ultra Moon,Game Freak,The Pokémon Company and Nintendo,2017-11-17,9090000,Nintendo 3DS
+NULL,Yo-kai Watch 2,Level-5,Nintendo,2014-12-13,6920000,Nintendo 3DS
+NULL,Tomodachi Life,Nintendo SPD,Nintendo,2013-04-18,6690000,Nintendo 3DS
+NULL,Luigi's Mansion: Dark Moon,Next Level Games,Nintendo,2013-03-20,6440000,Nintendo 3DS
+NULL,The Legend of Zelda: Ocarina of Time 3D,Grezzo,Nintendo,2011-06-16,6340000,Nintendo 3DS
+NULL,Nintendogs + Cats,Nintendo EAD,Nintendo,2011-02-26,4670000,Nintendo 3DS
+NULL,Monster Hunter Generations,Capcom,Capcom,2015-11-28,4300000,Nintendo 3DS
+NULL,The Legend of Zelda: A Link Between Worlds,Capcom,Capcom,2013-11-22,4210000,Nintendo 3DS
+NULL,Monster Hunter 4 Ultimate,Nintendo EAD,Nintendo,2015-02-13,4200000,Nintendo 3DS
+NULL,Monster Hunter 4,Capcom,Capcom,2013-09-14,4100000,Nintendo 3DS
+NULL,Super Mario Maker for Nintendo 3DS,Nintendo EAD,Nintendo,2016-12-01,3760000,Nintendo 3DS
+NULL,Animal Crossing: Happy Home Designer,Nintendo EAD,Nintendo,2015-07-02,3510000,Nintendo 3DS
+NULL,The Legend of Zelda: Majora's Mask 3D,Grezzo,Nintendo,2015-02-13,3360000,Nintendo 3DS
+NULL,Fire Emblem Fates: Birthright and Conquest,Intelligent Systems and Nintendo SPD,Nintendo,2015-06-25,3030000,Nintendo 3DS
+NULL,Mario Party: Island Tour,NDcube,Nintendo,2013-11-22,2930000,Nintendo 3DS
+NULL,Donkey Kong Country Returns 3D,Retro Studios and Monster Games,Nintendo,2013-05-24,2910000,Nintendo 3DS
+NULL,Yo-kai Watch,Level-5,Nintendo,2013-07-11,2780000,Nintendo 3DS
+NULL,Mario & Luigi: Dream Team,AlphaDream and Good-Feel,Nintendo,2013-07-12,2670000,Nintendo 3DS
+NULL,Kirby: Triple Deluxe,HAL Laboratory,Nintendo,2014-01-11,2630000,Nintendo 3DS
+NULL,Monster Hunter 3 Ultimate,Capcom,Capcom,2011-12-10,2600000,Nintendo 3DS
+NULL,Paper Mario: Sticker Star,Intelligent Systems,Nintendo,2012-11-11,2480000,Nintendo 3DS
+NULL,Fire Emblem Awakening,Intelligent Systems and Nintendo SPD,Nintendo,2012-04-19,2330000,Nintendo 3DS
+NULL,Yo-kai Watch Blasters: Red Cat Corps and White Dog Squad,Level-5,Nintendo,2015-07-11,2200000,Nintendo 3DS
+NULL,Yoshi's New Island,Arzest,Nintendo,2014-03-14,2040000,Nintendo 3DS
+NULL,Lego City Undercover: The Chase Begins,TT Fusion,Nintendo,2013-04-21,2040000,Nintendo 3DS
+NULL,Monster Hunter XX,Capcom,Capcom,2017-03-18,1800000,Nintendo 3DS
+NULL,Dragon Quest XI: Echoes of an Elusive Age,Square Enix,Square Enix,2017-07-29,1740000,Nintendo 3DS
+NULL,Pokémon Super Mystery Dungeon,Spike Chunsoft,The Pokémon Company and Nintendo,2015-09-17,1660000,Nintendo 3DS
+NULL,Kirby: Planet Robobot,HAL Laboratory,Nintendo,2016-04-28,1600000,Nintendo 3DS
+NULL,Mario Tennis Open,Camelot Software Planning,Nintendo,2012-05-20,1570000,Nintendo 3DS
+NULL,Puzzle & Dragons Z: Pazudora Z,GungHo Online Entertainment,GungHo Online Entertainment,2013-12-12,1500000,Nintendo 3DS
+NULL,Pokémon Red / Green / Blue / Yellowd,Game Freak,Nintendo,2016-02-27,1500000,Nintendo 3DS
+NULL,Style Savvy: Trendsetters,Syn Sophia,Nintendo,2012-09-27,1440000,Nintendo 3DS
+NULL,Pokémon Rumble Blast,Ambrella,The Pokémon Company and Nintendo,2011-08-11,1400000,Nintendo 3DS
+NULL,Pokémon Mystery Dungeon: Gates to Infinity,Spike Chunsoft,The Pokémon Company and Nintendo,2012-11-23,1380000,Nintendo 3DS
+NULL,Kid Icarus: Uprising,Nintendo EPD and Grezzo,Nintendo,2012-03-22,1360000,Nintendo 3DS
+NULL,The Legend of Zelda: Tri Force Heroes,Project Sora and Sora Ltd.,Nintendo,2015-10-22,1360000,Nintendo 3DS
+NULL,Super Street Fighter IV: 3D Edition,Level-5,Level-5,2011-02-26,1300000,Nintendo 3DS
+NULL,Yo-kai Watch 3: Sushi and Tempura,Dimps and Capcom,Capcom,2016-07-16,1300000,Nintendo 3DS
+NULL,Dragon Quest VII: Fragments of the Forgotten Past,Heartbeat and ArtePiazza,JP: Square Enix and WW: Nintendo,2013-02-07,1230000,Nintendo 3DS
+NULL,Miitopia,Nintendo EPD,Nintendo,2016-12-08,1210000,Nintendo 3DS
+NULL,Mario & Luigi: Paper Jam,AlphaDream,Nintendo,2015-12-03,1070000,Nintendo 3DS
+NULL,Star Fox 64 3D,Nintendo EAD and Q-Games,Nintendo,2011-07-14,1050000,Nintendo 3DS
+NULL,Professor Layton and the Miracle Mask,Level-5,JP: Level-5 and WW: Nintendo,2011-02-26,1020000,Nintendo 3DS
+NULL,Rhythm Heaven Megamix,Nintendo SPD,Nintendo,2015-06-11,1010000,Nintendo 3DS
+NULL,Bravely Default,Mixi,Xflag,2012-10-11,1000000,Nintendo 3DS
+NULL,Fantasy Life,Square Enix,Square Enix,2012-12-27,1000000,Nintendo 3DS
+NULL,Monster Strike,Level-5,JP: Level-5 and WW: Nintendo,2015-12-17,1000000,Nintendo 3DS
+NULL,Kingdom Hearts 3D: Dream Drop Distance,Silicon Studio,Nintendo,2012-03-29,1000000,Nintendo 3DS
+NULL,Mario Kart 8 Deluxe,Nintendo EPD,Nintendo,2017-04-28,45330000,Nintendo Switch
+NULL,Animal Crossing: New Horizons,Nintendo EPD,Nintendo,2020-03-20,38640000,Nintendo Switch
+NULL,Super Smash Bros. Ultimate,Bandai Namco Studios and Sora Ltd.,Nintendo,2018-12-07,28170000,Nintendo Switch
+NULL,The Legend of Zelda: Breath of the Wild,Nintendo EPD,Nintendo,2017-03-03,26550000,Nintendo Switch
+NULL,Pokémon Sword and Shield,Game Freak,The Pokémon Company and Nintendo,2019-11-15,24270000,Nintendo Switch
+NULL,Super Mario Odyssey,Nintendo EPD,Nintendo,2017-10-27,23500000,Nintendo Switch
+NULL,Super Mario Party,NDcube,Nintendo,2018-10-05,17780000,Nintendo Switch
+NULL,Pokémon Brilliant Diamond and Shining Pearl,ILCA,The Pokémon Company and Nintendo,2021-11-19,14650000,Nintendo Switch
+NULL,Pokémon: Let's Go Pikachu! and Let's Go Eevee!,Game Freak,The Pokémon Company and Nintendo,2018-11-16,14530000,Nintendo Switch
+NULL,Ring Fit Adventure,Nintendo EPD,Nintendo,2019-10-18,14090000,Nintendo Switch
+NULL,New Super Mario Bros. U Deluxe,Nintendo EPD,Nintendo,2019-01-11,13310000,Nintendo Switch
+NULL,Splatoon 2,Nintendo EPD,Nintendo,2017-07-21,13300000,Nintendo Switch
+NULL,Pokémon Legends: Arceus,Game Freak,The Pokémon Company and Nintendo,2022-01-28,12640000,Nintendo Switch
+NULL,Luigi's Mansion 3,Next Level Games,Nintendo,2019-10-31,11430000,Nintendo Switch
+NULL,Super Mario 3D World + Bowser's Fury,Nintendo EPD,Nintendo,2021-02-12,9430000,Nintendo Switch
+NULL,Super Mario 3D All-Stars,Nintendo,Nintendo,2020-09-18,9010000,Nintendo Switch
+NULL,Monster Hunter Rise,Capcom,Capcom,2021-03-26,7700000,Nintendo Switch
+NULL,Super Mario Maker 2,Nintendo EPD,Nintendo,2019-06-28,7150000,Nintendo Switch
+NULL,Mario Party Superstars,NDcube,Nintendo,2021-10-29,6880000,Nintendo Switch
+NULL,The Legend of Zelda: Link's Awakening,Grezzo,Nintendo,2019-09-20,5490000,Nintendo Switch
+NULL,Clubhouse Games: 51 Worldwide Classics,NDcube,Nintendo,2020-06-05,4220000,Nintendo Switch
+NULL,Hyrule Warriors: Age of Calamity,Omega Force,JP: Koei Tecmo and NA/PAL: Nintendo,2020-11-20,4000000,Nintendo Switch
+NULL,The Legend of Zelda: Skyward Sword HD,Tantalus Media,Nintendo,2021-07-16,3910000,Nintendo Switch
+NULL,Mario Tennis Aces,Camelot Software Planning,Nintendo,2018-06-22,3660000,Nintendo Switch
+NULL,1-2-Switch,Nintendo EPD,Nintendo,2017-03-03,3450000,Nintendo Switch
+NULL,Kirby Star Allies,HAL Laboratory,Nintendo,2018-03-16,3420000,Nintendo Switch
+NULL,Donkey Kong Country: Tropical Freeze,Retro Studios,Nintendo,2018-05-04,3420000,Nintendo Switch
+NULL,Fire Emblem: Three Houses,Intelligent Systems and Koei Tecmo,Nintendo,2019-07-26,3400000,Nintendo Switch
+NULL,Among Us,Innersloth,Innersloth,2020-12-15,3200000,Nintendo Switch
+NULL,Minecraft,Mojang,JP: Xbox Game Studios and NA/PAL: Mojang,2017-05-11,3140000,Nintendo Switch
+NULL,Paper Mario: The Origami King,Intelligent Systems,Nintendo,2020-07-17,3120000,Nintendo Switch
+NULL,Metroid Dread,MercurySteam and Nintendo EPD,Nintendo,2021-10-08,2900000,Nintendo Switch
+NULL,New Pokémon Snap,Bandai Namco Studios,JP: The Pokémon Company and NA/PAL: Nintendo,2021-04-30,2740000,Nintendo Switch
+NULL,Kirby and the Forgotten Land,HAL Laboratory,Nintendo,2022-03-25,2650000,Nintendo Switch
+NULL,Yoshi's Crafted World,Good-Feel,Nintendo,2019-03-29,2560000,Nintendo Switch
+NULL,Arms,Nintendo EPD,Nintendo,2017-06-16,2560000,Nintendo Switch
+NULL,Mario Golf: Super Rush,Camelot Software Planning,Nintendo,2021-06-25,2350000,Nintendo Switch
+NULL,Xenoblade Chronicles 2,Monolith Soft,Nintendo,2017-12-01,2170000,Nintendo Switch
+NULL,Octopath Traveler,Square Enix and Acquire,JP: Square Enix and NA/PAL: Nintendo,2018-07-13,2080000,Nintendo Switch
+NULL,Pikmin 3 Deluxe,Nintendo EPD and Eighting,Nintendo,2020-10-30,2040000,Nintendo Switch
+NULL,Mario + Rabbids Kingdom Battle,Ubisoft Paris and Ubisoft Milan,NA/PAL: Ubisoft JP/KOR: Nintendo20,2017-08-29,2000000,Nintendo Switch
+NULL,Captain Toad: Treasure Tracker,Nintendo EPD,Nintendo,2018-07-13,1770000,Nintendo Switch
+NULL,Miitopia,Grezzo,Nintendo,2021-05-21,1680000,Nintendo Switch
+NULL,Pokémon Mystery Dungeon: Rescue Team DX,Spike Chunsoft,Nintendo,2020-03-06,1600000,Nintendo Switch
+NULL,Big Brain Academy: Brain vs. Brain,Nintendo EPD,Nintendo,2021-12-03,1590000,Nintendo Switch
+NULL,Xenoblade Chronicles: Definitive Edition,Monolith Soft,Nintendo,2020-05-29,1520000,Nintendo Switch
+NULL,Pokkén Tournament DX,Bandai Namco Studios,JP: The Pokémon Compan and NA/PAL: Nintendoy,2017-09-22,1510000,Nintendo Switch
+NULL,Nintendo Labo Toy-Con 01: Variety Kit,Nintendo EPD,Nintendo,2018-04-20,1420000,Nintendo Switch
+NULL,Dragon Ball FighterZ,Arc System Works,Bandai Namco Entertainment,2018-09-27,1380000,Nintendo Switch
+NULL,Taiko no Tatsujin: Drum 'n' Fun!,Bandai Namco Studios,Bandai Namco Entertainment,2018-07-19,1340000,Nintendo Switch
+NULL,Marvel Ultimate Alliance 3: The Black Order,Team Ninja,Nintendo,2019-07-19,1310000,Nintendo Switch
+NULL,Mario Kart Live: Home Circuit,Velan Studios,Nintendo,2020-10-16,1270000,Nintendo Switch
+NULL,WarioWare: Get It Together!,Nintendo EPD and Intelligent Systems,Nintendo,2021-09-10,1270000,Nintendo Switch
+NULL,Dragon Ball Xenoverse 2,Dimps,Bandai Namco Entertainment,2017-09-07,1270000,Nintendo Switch
+NULL,Astral Chain,PlatinumGames,Nintendo,2019-08-30,1210000,Nintendo Switch
+NULL,Resident Evil Revelations Collection,Capcom,Capcom,2017-11-27,1100000,Nintendo Switch
+NULL,Game Builder Garage,Nintendo EPD,Nintendo,2021-06-11,1060000,Nintendo Switch
+NULL,Dr Kawashima's Brain Training for Nintendo Switch,Nintendo EPD and indieszero,Nintendo,2019-12-27,1050000,Nintendo Switch
+NULL,Enter the Gungeon,Dodge Roll,Devolver Digital,2017-12-14,1000000,Nintendo Switch
+NULL,Fitness Boxing,Imagineer,JP: Imagineer and NA/PAL: Nintendo,2018-12-20,1000000,Nintendo Switch
+NULL,Fitness Boxing 2: Rhythm and Exercise,Imagineer,JP: Imagineer and NA/PAL: Nintendo,2020-12-04,1000000,Nintendo Switch
+NULL,Shin Megami Tensei V,Atlus,JP: Atlus and NA: Sega and PAL: Nintendo,2021-11-11,1000000,Nintendo Switch
+NULL,Story of Seasons: Pioneers of Olive Town,Marvelous,Xseed Games,2021-02-25,1000000,Nintendo Switch
+NULL,Thief Simulator,Noble Muffins,Forever Entertainment,2019-05-19,1000000,Nintendo Switch
+NULL,The Legend of Zelda: Tears of the Kingdom,Nintendo EPD,Nintendo,2023-05-12,NULL,Nintendo Switch
