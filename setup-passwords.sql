@@ -1,0 +1,1 @@
+-- DDL file for implementing password management (SHA 2)

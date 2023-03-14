@@ -1,0 +1,1 @@
+-- DDL for the database, including indexes defined after DDL
