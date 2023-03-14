@@ -1,7 +1,6 @@
 """
-Code demo from Final Project Lecture 22wi, providing
-an example of using MySQL with Python for an animal adoption
-agency database (inspired by 21wi midterm).
+Application code for a tier list maker, using MySQL with Python for the
+tier list database.
 """
 import sys  # to print error messages to sys.stderr
 import mysql.connector
@@ -9,7 +8,9 @@ import mysql.connector
 # error-handling
 import mysql.connector.errorcode as errorcode
 # Debugging flag to print errors when debugging that shouldn't be visible
-# to an actual client. Set to False when done testing.
+# to an actual client.
+
+# TODO : set to False when done testing.
 DEBUG = True
 # ----------------------------------------------------------------------
 # SQL Utility Functions
@@ -27,7 +28,7 @@ def get_conn():
           # SHOW VARIABLES WHERE variable_name LIKE 'port';
           port='3306',
           password='adminpw',
-          database='shelterdb'
+          database='tierlistdb'
         )
         print('Successfully connected.')
         return conn
@@ -45,6 +46,7 @@ def get_conn():
         else:
             sys.stderr('An error occurred, please contact the administrator.')
         sys.exit(1)
+
 # ----------------------------------------------------------------------
 # Functions for Command-Line Options/Query Execution
 # ----------------------------------------------------------------------
@@ -64,14 +66,14 @@ def show_animals():
        breed = input('What breed to you want to look for? ')
     if breed:
         sql = """
-SELECT name, animal_type, join_date
-FROM animals
-WHERE animal_type LIKE '%s'
-ORDER BY join_date DESC;
-""" % (breed, ) # escape parameters for secure execution
+              SELECT name, animal_type, join_date
+              FROM animals
+              WHERE animal_type LIKE '%s'
+              ORDER BY join_date DESC;
+              """ % (breed, ) # escape parameters for secure execution
     else:
-        sql = 'SELECT name, animal_type, join_date FROM animals ORDER BY join_date
-DESC;'
+        sql = 'SELECT name, animal_type, join_date FROM animals ORDER BY join_date\
+                DESC;'
     try:
         cursor = conn.cursor()
         cursor.execute(sql)
@@ -93,14 +95,58 @@ DESC;'
         for row in rows:
             (name, breed, app_time) = row
             print('  ', app_time, f'"{name}"', f'({breed})')
+
 def show_applications(status=None):
     print('Application listing unimplemented.')
+
 def update_application():
     # TODO: Call accept_application procedure defined in MySQL
     print('Application updating (via procedure call) unimplemented.')
+    # cursor.execute('CALL accept_application(\'%s\', \'%s\');', (app_id, animal_id))
+
 # ----------------------------------------------------------------------
 # Functions for Logging Users In
 # ----------------------------------------------------------------------
+# Note: There's a distinction between database users (admin and client)
+# and application users (e.g. members registered to a store). You can
+# choose how to implement these depending on whether you have app.py or
+# app-client.py vs. app-admin.py (in which case you don't need to
+# support any prompt functionality to conditionally login to the sql database)
+def prompt():
+    print('Welcome to __!')
+    username = input('What is your username?')
+    sql = get_user_info(username)
+    try:
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        result = cursor.fetchone()
+    except mysql.connector.Error as err:
+        if DEBUG:
+            sys.stderr(err)
+            sys.exit(1)
+        else:
+            sys.stderr('An error occurred when searching for this username.')
+            return
+    if result:
+        print('welcome back ' + result[0][0] + '!')
+    else:
+        print(f'no user with username \'{username}\'')
+        ans = input('would you like to create a new user?')
+        if ans and ans[0].lower() == 'y':
+            full_name = input('what is your full anme')
+            sql = f'INSERT INTO users (username, full_name) VALUES (\'{(username,)}\', \'{(full_name,)}\');'
+            try:
+                cursor.execute(sql)
+                print('User created!')
+            except mysql.connector.Error as err:
+                if DEBUG:
+                  print(err)
+    show_options(username)
+
+def get_user_info(username):
+    sql = f'SELECT username FROM users WHERE username LIKE \'{(username,)}\''
+    return sql
+
 # ----------------------------------------------------------------------
 # Command-Line Functionality
 # ----------------------------------------------------------------------
@@ -125,6 +171,10 @@ def show_options():
             print('Login functionality unimplemented.')
         else:
             print('Unknown option.')
+
+def show_user_options():
+    pass
+
 # You may choose to support admin vs. client features in the same program, or
 # separate the two as different client and admin Python programs using the same
 # database.
@@ -150,19 +200,34 @@ def show_admin_options():
             update_application()
         else:
             print('Unknown option.')
+
+def is_admin(username):
+    try:
+        cursor = conn.cursor()
+        cursor.execute(f'SELECT is_admin FROM users WHERE username=\'{(username,)}\'')
+        result = cursor.fetchone()
+        if not result:
+            print('username not found')
+            cursor.close()
+        else:
+
+
 def quit_ui():
     """
     Quits the program, printing a good bye message to the user.
     """
     print('Good bye!')
     exit()
+
 def main():
     """
     Main function for starting things up.
     """
     show_options()
+    # prompt()
+
 if __name__ == '__main__':
-    # This conn is a global object that other functinos can access.
+    # This conn is a global object that other functions can access.
     # You'll need to use cursor = conn.cursor() each time you are
     # about to execute a query with cursor.execute(<sqlquery>)
     conn = get_conn()
