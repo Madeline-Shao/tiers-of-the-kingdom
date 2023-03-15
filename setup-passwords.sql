@@ -1,16 +1,17 @@
 -- File for Password Management section of Final Project
 -- (Provided) This function generates a specified number of characters for using
 -- as a salt in passwords.
-SET GLOBAL log_bin_trust_function_creators = 1;
--- DROP TABLE IF EXISTS user_info;
+
+-- DROP TABLE IF EXISTS user_info
 DROP FUNCTION IF EXISTS make_salt;
 DROP PROCEDURE IF EXISTS sp_add_user;
 DROP FUNCTION IF EXISTS authenticate;
 DROP PROCEDURE IF EXISTS sp_change_password;
 
+-- Marking function as NO SQL is necessary for MySQL 8
 DELIMITER !
 CREATE FUNCTION make_salt(num_chars INT)
-RETURNS VARCHAR(20) NOT DETERMINISTIC
+RETURNS VARCHAR(20) NO SQL NOT DETERMINISTIC
 BEGIN
     DECLARE salt VARCHAR(20) DEFAULT '';
     -- Don't want to generate more than 20 characters of salt.

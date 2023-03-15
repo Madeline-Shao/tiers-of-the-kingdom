@@ -10,10 +10,13 @@ import mysql.connector.errorcode as errorcode
 from enum import Enum
 from collections import defaultdict
 
+# Name: Madeline Shao
+# Email: mshao@caltech.edu
+
 # Debugging flag to print errors when debugging that shouldn't be visible
 # to an actual client.
-# TODO : set to False when done testing.
-DEBUG = True
+# Set to False when done testing.
+DEBUG = False
 
 class Colors(Enum):
     '''
