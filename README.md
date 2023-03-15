@@ -2,7 +2,8 @@
 By Madeline Shao
 
 Tiers of the Kingdom is a tier list maker that uses an SQL database and a command line app.
-Users can create tierlists for Nintendo video games.
+Users can register an account, create tierlists for Nintendo video games, and view
+other users' tierlists, game statistics, etc.
 
 Data sourced from https://www.kaggle.com/datasets/codefantasy/list-of-best-selling-nintendo-games.
 
@@ -13,8 +14,8 @@ CREATE DATABASE tierlistdb;
 USE tierlistdb;
 source setup.sql;
 source load-data.sql;
-source setup-routines.sql;
 source setup-passwords.sql;
+source setup-routines.sql;
 source grant-permissions.sql;
 ```
 
@@ -22,6 +23,7 @@ source grant-permissions.sql;
 To run the command line app, run
 `python3 app.py`
 
-For testing purposes,the admin login information is as follows:
-username: `testuser`
+For testing purposes,the admin login information for the app is as follows:
+
+username: `testuser`\
 password: `testpw`
