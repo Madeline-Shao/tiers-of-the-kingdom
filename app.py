@@ -220,16 +220,16 @@ def show_games():
     if not sort_dir:
         sort_dir = "asc"
     else:
-        if sort_col.lower() not in game_cols:
+        if sort_col == "":
+            sort_col = "release_date" # default
+        elif sort_col.lower() not in game_cols:
             print_err(f'Unable to sort: Column \'{sort_col}\' does not exist')
             return
-        elif sort_col == "":
-            sort_col = "release_date" # default
-        if sort_dir.lower() not in ("asc", "desc"):
+        if sort_dir == "":
+            sort_dir = "asc" # default
+        elif sort_dir.lower() not in ("asc", "desc"):
             print_err(f'Unable to sort: Direction \'{sort_dir}\' is invalid')
             return
-        elif sort_dir == "":
-            sort_dir = "asc" # default
     game_sort = "ORDER BY %s %s" % (sort_col, sort_dir)
 
     sql = """
@@ -642,13 +642,14 @@ def update_game_sales():
     sales = input('Enter the updated number of sales (integer): ')
     if sales == '':
         sales = None
+        sql = 'CALL sp_update_video_game_sales(\'%d\', NULL);' % (id)
     else:
         try:
             sales = int(sales)
         except ValueError:
-            print_err(f'Failed to add game: Sales input {sales} was not a number')
+            print_err(f'Failed to update game: Sales input {sales} was not a number')
             return
-    sql = 'CALL sp_update_video_game_sales(\'%d\', \'%d\');' % (id, sales)
+        sql = 'CALL sp_update_video_game_sales(\'%d\', \'%d\');' % (id, sales)
     try:
         cursor = conn.cursor()
         cursor.execute(sql)
@@ -669,7 +670,7 @@ def add_tier():
     '''
     global conn
     rank = input('Enter the rank of the new tier. The rank must not be the same\
-as any existing tier and should be an integer: ')
+ as any existing tier and should be an integer: ')
     try:
         rank = int(rank)
     except ValueError:
@@ -864,7 +865,8 @@ def show_startup_options():
     Displays options users can choose in the application startup, such as
     viewing games, tierlists, etc. or logging in.
     """
-    print('Welcome to Tiers of the Kingdom!')
+    print()
+    print_bold('Welcome to Tiers of the Kingdom!')
     print('What would you like to do? ')
     print('  (l) - login')
     print_universal_options() # g, t, u, v, s
