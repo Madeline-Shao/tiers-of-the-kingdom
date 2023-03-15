@@ -1,7 +1,8 @@
 -- File for Password Management section of Final Project
--- (Provided) This function generates a specified number of characters for using as
--- a salt in passwords.
+-- (Provided) This function generates a specified number of characters for using
+-- as a salt in passwords.
 SET GLOBAL log_bin_trust_function_creators = 1;
+-- DROP TABLE IF EXISTS user_info;
 DROP FUNCTION IF EXISTS make_salt;
 DROP PROCEDURE IF EXISTS sp_add_user;
 DROP FUNCTION IF EXISTS authenticate;
@@ -24,6 +25,7 @@ BEGIN
 END !
 DELIMITER ;
 
+
 -- [Problem 1a]
 -- Adds a new user to the user_info table, using the specified password (max
 -- of 20 characters). Salts the password with a newly-generated salt value,
@@ -33,11 +35,11 @@ CREATE PROCEDURE sp_add_user(new_username VARCHAR(20), password VARCHAR(20))
 BEGIN
     DECLARE salt CHAR(8);
     DECLARE password_hash BINARY(64);
-    
+
     -- create salt and get hashed password
     SET salt = make_salt(8);
-    SET password_hash = SHA2(CONCAT(salt, password), 256); 
-    
+    SET password_hash = SHA2(CONCAT(salt, password), 256);
+
     -- add new record to user_info with username, salt, salted password
     -- assume that app has verified that username is available
     INSERT INTO user_info
@@ -55,8 +57,11 @@ CREATE FUNCTION authenticate(username VARCHAR(20), password VARCHAR(20))
 RETURNS TINYINT DETERMINISTIC
 BEGIN
     DECLARE authenticate TINYINT DEFAULT 0;
-    
-    SELECT IF(count(*) = 1, 1, 0) FROM user_info WHERE user_info.username = username AND password_hash = SHA2(CONCAT(salt, password), 256) INTO authenticate;
+
+    SELECT IF(count(*) = 1, 1, 0) FROM user_info
+    WHERE user_info.username = username AND
+        password_hash = SHA2(CONCAT(salt, password), 256) INTO authenticate;
+
     RETURN authenticate;
 END !
 DELIMITER ;
@@ -74,15 +79,16 @@ CALL sp_add_user('link', 'mastersword');
 -- change the given
 -- user's password to the given password (after salting and hashing)
 DELIMITER !
-CREATE PROCEDURE sp_change_password(username VARCHAR(20), new_password VARCHAR(20))
+CREATE PROCEDURE sp_change_password(username VARCHAR(20),
+                    new_password VARCHAR(20))
 BEGIN
     DECLARE salt CHAR(8);
     DECLARE password_hash BINARY(64);
-    
+
     -- create salt and get hashed password
     SET salt = make_salt(8);
-    SET password_hash = SHA2(CONCAT(salt, new_password), 256); 
-    
+    SET password_hash = SHA2(CONCAT(salt, new_password), 256);
+
     -- update with new password
     -- assume that app has verified that username already exists
     UPDATE user_info

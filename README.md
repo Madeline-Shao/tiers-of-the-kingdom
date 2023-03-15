@@ -7,7 +7,7 @@ Users can create tierlists for Nintendo video games.
 Data sourced from https://www.kaggle.com/datasets/codefantasy/list-of-best-selling-nintendo-games.
 
 ## Loading data
-To load data, in MySQL, run the following:
+To load data, launch MySQL in the tiers-of-the-kingdom directory. Then run the following:
 ```
 CREATE DATABASE tierlistdb;
 USE tierlistdb;
@@ -21,3 +21,7 @@ source grant-permissions.sql;
 ## Running the app
 To run the command line app, run
 `python3 app.py`
+
+For testing purposes,the admin login information is as follows:
+username: `testuser`
+password: `testpw`

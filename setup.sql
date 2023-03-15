@@ -70,25 +70,27 @@ CREATE TABLE tier (
     -- is not used as primary key since it is possible it could change.
     -- SMALLINT is used because rank should not be particularly large.
     tier_rank SMALLINT UNIQUE NOT NULL,
+    -- tier name does not have to be unique.
     tier_name VARCHAR(30) NOT NULL,
     color VARCHAR(30) NOT NULL DEFAULT 'gray'
 );
 
--- Relation table representing what tier each object is in a particular
+-- Relation table representing what tier each game is in a particular
 -- tierlist. All attributes are not null.
 CREATE TABLE game_tier (
     username VARCHAR(20),
     tierlist_name VARCHAR(50),
     game_id BIGINT UNSIGNED,
     tier_id BIGINT UNSIGNED NOT NULL,
-    -- username, tierlist_name, game_id is the primary key since a game can only appear
-    -- once in a user's tierlist
+    -- username, tierlist_name, game_id is the primary key since a game can only
+    -- appear once in a user's tierlist
     PRIMARY KEY (username, tierlist_name, game_id),
     -- Object tier should be deleted if any of the foreign keys are deleted.
-    FOREIGN KEY (username, tierlist_name) REFERENCES tierlist(username, tierlist_name) ON DELETE CASCADE,
+    FOREIGN KEY (username, tierlist_name) REFERENCES
+                tierlist(username, tierlist_name) ON DELETE CASCADE,
     FOREIGN KEY (game_id) REFERENCES video_game(game_id) ON DELETE CASCADE,
     FOREIGN KEY (tier_id) REFERENCES tier(tier_id) ON DELETE CASCADE
 );
 
 -- Index
-CREATE INDEX idx_platform ON video_game(platform);
+-- CREATE INDEX idx_release_date ON video_game(release_date);

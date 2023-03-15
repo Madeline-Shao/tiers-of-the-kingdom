@@ -8,8 +8,8 @@ CREATE USER 'appclient'@'localhost' IDENTIFIED BY 'clients';
 
 GRANT ALL PRIVILEGES ON tierlistdb.* TO 'appadmin'@'localhost';
 GRANT SELECT ON tierlistdb.* TO 'appclient'@'localhost';
-GRANT INSERT, UPDATE, DELETE ON tierlistdb.user_info TO 'appclient'@'localhost';
-GRANT INSERT, UPDATE, DELETE ON tierlistdb.tierlist TO 'appclient'@'localhost';
+GRANT INSERT, UPDATE ON tierlistdb.user_info TO 'appclient'@'localhost';
+GRANT INSERT, DELETE ON tierlistdb.tierlist TO 'appclient'@'localhost';
 GRANT INSERT, UPDATE, DELETE ON tierlistdb.game_tier TO 'appclient'@'localhost';
 
 FLUSH PRIVILEGES;
