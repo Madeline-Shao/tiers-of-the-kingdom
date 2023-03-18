@@ -191,15 +191,15 @@ def show_games():
     prints an error message and returns.
     """
     global conn
-    ans = input('Do you want to filter the results? ')
+    ans = input('Do you want to filter the games? ')
     filter_col = None
     filter_val = None
     # columns in the table video_game
     game_cols = ("game_id", "game_name", "developer", "publisher",
                  "release_date", "sales", "platform")
     if ans and ans.lower()[0] == 'y':
-        filter_col = input('Enter a column to filter by: ')
-        filter_val = input('Enter the value the column should be equal to: ')
+        filter_col = input(f'Enter one attribute to filter by ({", ".join(game_cols)}): ')
+        filter_val = input('Enter the value the attribute should be equal to: ')
     if not filter_col or (filter_col == "" and filter_val == ""):
         game_filter = ""
     else:
@@ -213,7 +213,7 @@ def show_games():
     sort_col = None
     sort_dir = None
     if ans and ans.lower()[0] == 'y':
-        sort_col = input('Enter a column to sort by (default release_date): ')
+        sort_col = input(f'Enter an attribute to sort by ({{", ".join(game_cols)}}): ')
         sort_dir = input('What direction? (\'asc\' (default) or \'desc\'): ')
     if not sort_col:
         sort_col = "release_date"
