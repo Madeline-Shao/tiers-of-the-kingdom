@@ -53,7 +53,8 @@ Guides on how to get started:
 ### As a guest user (not logged in)
 1. Choose option (u) to see the list of tierlists you can view. Remember the name of the tierlist you want to view and the user who owns the tierlist.
 2. Choose option (v) to view the tierlist by inputting the username and the tierlist name.
-3. Choose option (l) to log in or create an account.
+3. Choose option (s) to see ranking statistics for a game
+4. Choose option (l) to log in or create an account.
 
 ### As a client
 1. Choose option (g) to view the list of Nintendo games you can tier. Allows for filtering and sorting. Remember the IDs of the video games you want to tier.
