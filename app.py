@@ -334,26 +334,16 @@ def show_tierlists():
         else:
             sys.stderr('An error occurred when fetching the tiers.')
 
-def view_tierlist():
+def print_tierlist(username, tierlist_name):
     '''
-    Prompts user to enter a username and a tierlist to display. If the input
-    user does not own the input tierlist or if the tierlist is empty, a message
-    is printed accordingly. Otherwise, the tierlist printed, ordered by tier
-    rank and each tier is colored accordingly.
+    Prints the given tierlist in color.
     '''
-    global conn
-    username = input('Enter the username of the user who owns the tierlist: ')
-    tierlist_name = input('Enter the name of the tierlist: ')
-    # if not entry_exists('tierlist', 'username', username,
-    #                     'tierlist_name', tierlist_name):
-    if not username_tierlist_exists(username, tierlist_name):
-        print_err(f'User {username} does not own a tierlist named {tierlist_name}.')
-        return
     try:
         cursor = conn.cursor()
         cursor.execute('SELECT game_name, tier_rank FROM game_tier JOIN video_game USING(game_id) JOIN tier USING(tier_id) WHERE username=\'%s\' AND tierlist_name = \'%s\' ORDER BY tier_rank;' % (username, tierlist_name))
         rows = cursor.fetchall()
         if not rows:
+            print()
             print_warning(f'User {username}\'s tierlist {tierlist_name} is empty.')
             return
     except mysql.connector.Error as err:
@@ -361,7 +351,7 @@ def view_tierlist():
             print(err)
         else:
             sys.stderr('An error occurred when fetching the tiers.')
-
+    print()
     # Create a dictionary where the key is the rank and the value is
     # a list of games assigned to that rank
     tier_dict = defaultdict(list)
@@ -384,6 +374,23 @@ def view_tierlist():
             result = result[:-2]
         result = result + f'{Colors.END.value}'
         print(result)
+
+def view_tierlist():
+    '''
+    Prompts user to enter a username and a tierlist to display. If the input
+    user does not own the input tierlist or if the tierlist is empty, a message
+    is printed accordingly. Otherwise, the tierlist printed, ordered by tier
+    rank and each tier is colored accordingly.
+    '''
+    global conn
+    username = input('Enter the username of the user who owns the tierlist: ')
+    tierlist_name = input('Enter the name of the tierlist: ')
+    # if not entry_exists('tierlist', 'username', username,
+    #                     'tierlist_name', tierlist_name):
+    if not username_tierlist_exists(username, tierlist_name):
+        print_err(f'User {username} does not own a tierlist named {tierlist_name}.')
+        return
+    print_tierlist(username, tierlist_name)
 
 def view_stats():
     '''
@@ -478,6 +485,7 @@ def add_update_game_tier(username, tierlist):
         else:
             sys.stderr('An error occurred when assigning the game to a tier.')
         return
+    print_tierlist(username, tierlist)
 
 def delete_game_tier(username, tierlist):
     '''
@@ -512,6 +520,7 @@ def delete_game_tier(username, tierlist):
         else:
             sys.stderr('An error occurred when deleting the game from the tierlist.')
         return
+    print_tierlist(username, tierlist)
 
 def create_tierlist(username):
     '''
@@ -727,7 +736,7 @@ def login():
     on if the user is an admin or not.
     '''
     global conn
-    username = input('Enter your username: ')
+    username = input('Enter a username: ')
     # sql = 'SELECT username FROM user_info WHERE username LIKE \'%s\'' % (
     #                                                                 username,)
     # try:
@@ -843,6 +852,7 @@ def print_universal_options():
     Prints the options that are available for all users, both logged in
     and not logged in.
     '''
+    print('  (h) - print the option menu again')
     print('  (g) - show the list of Nintendo games you can tier (displays at most 30 games)')
     print('  (s) - show rank statistics for a game')
     print('  (t) - show the different tiers')
@@ -859,6 +869,13 @@ def print_logged_in_options():
     print('  (d) - delete a tierlist')
     print("  (e) - edit a tierlist")
 
+def print_startup_menu_options():
+    '''
+    Prints the options for the startup menu
+    '''
+    print_universal_options() # g, t, u, v, s
+    print('  (l) - login or create an account')
+    print('  (q) - quit')
 
 def show_startup_options():
     """
@@ -868,9 +885,7 @@ def show_startup_options():
     print()
     print_bold('Welcome to Tiers of the Kingdom!')
     print('What would you like to do? ')
-    print('  (l) - login')
-    print_universal_options() # g, t, u, v, s
-    print('  (q) - quit')
+    print_startup_menu_options()
     while True:
         print()
         ans = input('Enter an option: ')
@@ -879,6 +894,9 @@ def show_startup_options():
         ans = ans[0].lower()
         if ans == 'q':
             quit_ui()
+        elif ans == 'h':
+            print()
+            print_startup_menu_options()
         elif ans == 'g':
             show_games()
         elif ans == 't':
@@ -919,6 +937,8 @@ def show_client_options(username):
         ans = ans[0].lower()
         if ans == 'q':
             quit_ui()
+        elif ans == 'h':
+            print_client_menu_options()
         elif ans == 'g':
             show_games()
         elif ans == 't':
@@ -972,6 +992,8 @@ def show_admin_options(username):
         ans = ans[0].lower()
         if ans == 'q':
             quit_ui()
+        elif ans == 'h':
+            print_admin_menu_options()
         elif ans == 'g':
             show_games()
         elif ans == 't':

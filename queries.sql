@@ -75,7 +75,8 @@ WHERE game_name='super mario world' ORDER BY avg_rank ASC;
 -- RA Expression: Get the average, min, and max rank for all games
 -- published by Nintendo, grouped by platform, ordered by rank asc.
 -- Using explain on this query shows that it uses the idx_platform
--- index.
+-- index. (RA expression does not include the order by because
+-- it is non trivial to implement in RA).
 SELECT platform, AVG(tier_rank) AS avg_rank, MIN(tier_rank) AS min_rank,
     MAX(tier_rank) AS max_rank
 FROM game_tier JOIN video_game USING (game_id) JOIN tier USING (tier_id)
@@ -86,7 +87,8 @@ GROUP BY platform ORDER BY avg_rank ASC;
 -- “testuser”,
 -- return all the names of the games in the tierlist along with their rank
 -- and rank color.
--- Order by tier rank asc
+-- Order by tier rank asc. (RA expression does not include the order by because
+-- it is non trivial to implement in RA).
 SELECT game_name, tier_rank, color
 FROM game_tier JOIN video_game USING (game_id) JOIN tier USING (tier_id)
 WHERE username = 'testuser' AND tierlist_name = 'testtierlist2'

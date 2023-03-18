@@ -93,4 +93,4 @@ CREATE TABLE game_tier (
 );
 
 -- Index
-CREATE INDEX idx_publisher ON video_game(publisher);
+CREATE INDEX idx_sales ON video_game(sales);
